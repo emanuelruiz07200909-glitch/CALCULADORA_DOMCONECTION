@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+section {
+    padding: 20px;
+    border: 2px solid #ac61d2;
+    border-radius: 10px;
+    max-width: 480px;
+    margin: 24px auto;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input[type="type"], input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px
+}
+
+button {
+    padding: 10px;
+    background-color: #c881f1;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#resultado2, #resultado3, #resultado4 {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f3fde9;
+}
+
+h2 {
+    color: #08010c;
+}
+
+label {
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+#resultado11 {
+    background-color: #dcd9e2;
+}
+
+#resultado22, #resultado33, #resultado44 {
+    background-color: #8bc7ef;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 6px 0;
+}
+
+#resultado_suma, 
+#resultado_resta, 
+#resultado_multiplicacion, 
+#resultado_division{
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #f8f0f0;
+    margin: 6px 0;
+}
